@@ -2,7 +2,7 @@
 {
     public enum RaceCategory
     {
-        Maratho,
+        Marathon,
         Ultra,
         FiveK,
         TenK,

@@ -23,7 +23,7 @@ namespace RunGroupWebApp.Models
         public Address? Address { get; set; }
 
         [ForeignKey("AppUser")]
-        public int AppUserId { get; set; }
+        public string? AppUserId { get; set; }
 
         public AppUser? AppUser { get; set; }
     }
